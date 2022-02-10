@@ -1,6 +1,6 @@
 # _CommandGit
 ✔️ Git _Command
-
+```
 $ git branch -> 로컬 branch 확인  
 $ git branch -r 서버 branch 확인  
 $ git checkout -b 브랜치명 브랜치를 만들고 바로 이동  
@@ -74,3 +74,4 @@ $ git remote -v
 $ git pull 저장소명 +master   
 $ git push 저장소명 +master   
 $ git remote rm 저장소명   
+```
