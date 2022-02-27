@@ -69,6 +69,13 @@ $ git ls-files | xargs wc -l
 $ wc -l `find . -name '*.json'`   
 $ find . -name '*.js' | xargs wc -l   
 
+// 로그
+$ git log -p   
+$ git log -p README.md   
+$ git log --oneline   
+$ git log --name-only   
+
+
 // 빠르게 쓰는 명령어   
 $ git remote add "저장소명" "url"   
 $ git remote -v   
