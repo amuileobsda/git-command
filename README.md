@@ -69,7 +69,7 @@ $ git ls-files | xargs wc -l
 $ wc -l `find . -name '*.json'`   
 $ find . -name '*.js' | xargs wc -l   
 
-// 로그
+// 로그확인
 $ git log -p   
 $ git log -p README.md   
 $ git log --oneline   
