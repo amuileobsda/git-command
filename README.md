@@ -74,7 +74,8 @@ $ git log -p
 $ git log -p README.md   
 $ git log --oneline   
 $ git log --name-only   
-
+$ git log --graph   
+$ git log --oneline --graph   
 
 // 빠르게 쓰는 명령어   
 $ git remote add "저장소명" "url"   
