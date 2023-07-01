@@ -14,10 +14,10 @@
 
 ### Branch 관련 명령어
 ```
-$git branch                        # 로컬 브랜치 확인
-$git branch -r                     # 원격 브랜치 확인
-$git checkout -b 브랜치명           # 브랜치 생성 후 이동
-$git branch -d(D) test             # 브랜치 삭제
+$git branch                       # 로컬 브랜치 확인
+$git branch -r                    # 원격 브랜치 확인
+$git checkout -b 브랜치명          # 브랜치 생성 후 이동
+$git branch -d(D) test            # 브랜치 삭제
 ```
 ### 상태 확인 및 변경 명령어
 ```
@@ -26,13 +26,13 @@ $git add 경로                      # 변경 내용 추가 및 에러 해결
 ```
 ### 원격 저장소 관련 명령어
 ```
-$git remote                        # 리모트 저장소 확인
-$git push origin :브랜치명         # 서버에서 브랜치 삭제
-$git remote prune origin           # 깃랩에서 삭제한 것 서버와 동기화
-$git push origin dev               # dev 브랜치로 푸시
+$git remote                         # 리모트 저장소 확인
+$git push origin :브랜치명           # 서버에서 브랜치 삭제
+$git remote prune origin            # 깃랩에서 삭제한 것 서버와 동기화
+$git push origin dev                # dev 브랜치로 푸시
 $git remote add origin "주소"       # 원격 저장소 추가
-$git remote -v                     # 원격 저장소 목록 확인
-$git remote rm 저장소명             # 원격 저장소 제거
+$git remote -v                      # 원격 저장소 목록 확인
+$git remote rm 저장소명              # 원격 저장소 제거
 ```
 ### 코드 관리 명령어
 ```
@@ -55,11 +55,11 @@ $git log --graph                   # 커밋 그래프 확인
 ```
 ### 일반적인 명령어
 ```
-$git init                          # Git 생성하기
-$git add file_path                 # 수정한 코드 선택하기
-$git commit -m "commit_description"  # 선택한 코드 설명 적기
-$git push origin branch_name       # add하고 commit한 코드를 Git 서버에 보내기
-$git pull                          # Git 서버에서 최신 코드를 받아와서 merge하기
+$git init                                    # Git 생성하기
+$git add file_path                           # 수정한 코드 선택하기
+$git commit -m "commit_description"          # 선택한 코드 설명 적기
+$git push origin branch_name                 # add하고 commit한 코드를 Git 서버에 보내기
+$git pull                                    # Git 서버에서 최신 코드를 받아와서 merge하기
 $git config --global user.name "user_name"    # Git 계정 이름 변경하기
 $git config --global user.email "user_email"  # Git 계정 이메일 변경하기
 ```
@@ -71,5 +71,5 @@ $git remote add origin "저장소명" "url"
 $git remote -v
 $git pull "저장소명" +master
 $git push "저장소명" +master
-$git push -u origin master        #강제푸쉬
+$git push -u origin master                    #강제푸쉬
 ```
