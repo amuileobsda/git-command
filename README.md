@@ -12,7 +12,7 @@
 
 ## Git Command
 
-```shell
+```
 # Branch 관련 명령어
 $ git branch                        # 로컬 브랜치 확인
 $ git branch -r                     # 원격 브랜치 확인
